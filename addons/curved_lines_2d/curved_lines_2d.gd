@@ -95,7 +95,6 @@ enum SVSEditMode {
 	KNIFE, CREATE_ELLIPSE, CREATE_RECT
 }
 
-<<<<<<< HEAD
 const CANCELABLE_MODES : Array[SVSEditMode] = [
 	SVSEditMode.TRANSLATE, SVSEditMode.ROTATE, SVSEditMode.SCALE,
 	SVSEditMode.MERGE, SVSEditMode.BRUSH, SVSEditMode.PENCIL,
@@ -108,11 +107,8 @@ const DRAW_MODES : Array[SVSEditMode] = [
 	SVSEditMode.CREATE_ELLIPSE, SVSEditMode.CREATE_RECT
 ]
 
-var plugin : Line2DGeneratorInspectorPlugin
-=======
 var inspector_plugin : Line2DGeneratorInspectorPlugin
 var importer_plugin : ScalableSVGImportPlugin
->>>>>>> 94ebce7 (Made import plugin for SVGs)
 var scalable_vector_shapes_2d_dock
 var select_mode_button : Button
 var undo_redo : EditorUndoRedoManager
